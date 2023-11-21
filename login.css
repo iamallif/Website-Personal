@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Menggunakan flex-direction: column untuk membuat child elements berada di kolom */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fce5c8;
+}
+
+#welcome-container {
+    text-align: center;
+}
+
+#logo {
+    width: 270px; /* Sesuaikan ukuran logo */
+    height: auto;
+}
+
+#start-button {
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: linear-gradient(to bottom, #ff7e3d 0%, #ff5703 100%); /* Efek glossy menggunakan linear gradient */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none; /* Menghilangkan border agar terlihat lebih glossy */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan untuk efek glossy */
+    transition: background 0.3s ease-in-out; /* Efek transisi ketika tombol dihover */
+}
+
+#start-button:hover {
+    background: linear-gradient(to bottom, #ff5703 0%, #ff7e3d 100%); /* Mengubah warna saat tombol dihover */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    font-family: 'Your Beautiful Font', sans-serif; /* Ganti 'Your Beautiful Font' dengan nama font yang diinginkan */
+    font-size: 16px;
+    color: #333; /* Ganti dengan warna yang diinginkan */
+}
+
+.heart {
+    color: red; /* Ganti dengan warna hati yang diinginkan */
+}
